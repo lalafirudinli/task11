@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+.header2 h3{
+    color:#21313c;
+    font-size: 26.5px;
+    font-weight: bold;
+}
+
+.header2 i{
+    background-color: #ecf0ef;
+    border: 1px solid #ecf0ef;
+    border-radius: 100%;
+    color: #889397;
+    font-size: 24px;
+    height: 32px;
+    align-items: center;
+    width: 32px;
+    margin-left: 8px;
+    text-align: center;
+    top: 50%;
+    height: 50%;
+    transition: .4s;
+    padding: 6px 0;
+}
+
+.header2 i:hover{
+    background-color: #0aad0a;
+}
+
+.box-all{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.box{
+    border: 1px solid #dfe2e1;  
+    height: auto;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+.box p{
+    color: #21313c;
+    font-size: 16px; 
+}
+
+.box:hover{
+    border: 1px solid #0aad0a;
+    box-shadow:1px 1px 2px 0px  #0aad0a;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: bottom;
+    gap: 14px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.box2 img{
+    width: 100%;  
+    height: 200px;  
+    position: relative;
+}
+
+.img1 h3{
+    color: #21313c;
+    font-size: 24.5px;
+    position: absolute;
+    font-weight: bold;
+    bottom: 120px;
+    left: 26px;
+}
+
+.img1 p{
+    color: #5c6c75;
+    font-size: 14px;
+    position: absolute;
+    font-weight: bold;
+    bottom: 86px;
+    left: 26px;
+}
+
+.img2 h3{
+    color: #21313c;
+    font-size: 24.5px;
+    position: absolute;
+    font-weight: bold;
+    bottom: 120px;
+    left: 43rem;
+}
+
+.img2 p{
+    color: #5c6c75;
+    font-size: 14px;
+    position: absolute;
+    font-weight: bold;
+    bottom: 86px;
+    left: 43rem;
+}
+a{
+    text-decoration: none;
+}
+.img1 a{
+    color: #fff;
+    font-size: 16px;
+    background-color: #001e2b;
+    border-radius: 16%;
+    padding: 8px 8px;
+    bottom: 42px;
+    left: 34px;
+    position: absolute;
+    width: 96px;
+    align-items: center;
+    transition: .4s;
+}
+.img2 a{
+    color: #fff;
+    font-size: 16px;
+    background-color: #001e2b;
+    border-radius: 16%;
+    padding: 8px 8px;
+    bottom: 42px;
+    left: 43rem;
+    position: absolute;
+    width: 96px;
+    align-items: center;
+    transition: .4s;
+}
+
+.img1 a:hover{
+    background-color: #21313c;
+}
+.img2 a:hover{
+    background-color: #21313c;
+}
+
+.text h3{
+    color: #21313c;
+    font-size: 28.5px;
+    margin-top: 24px;
+}
+
+.box4{
+    border: 1px solid #dfe2e1; 
+    height: auto;
+    border-radius: 12px;
+    /* text-align: center; */
+    margin-top: 20px;
+    position: relative;
+}
+
+.box4 h4{
+    color: #889397;
+    font-size: 12.5px;
+    margin-left: 12px;
+    
+}
+.box4 .ahref{
+    color: #21313c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.text-warning{
+    margin-left: 12px;
+    font-size: 12.5px;
+}
+
+.common{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+   
+}
+
+.button a{
+    background-color: #0aad0a;
+    border: 1px solid #0aad0a ;
+}
+
+.text-warning span{
+    color: #889397!important;
+}
+
+.sale span{
+    color: white;
+    background-color:#db3030;
+    font-size: 10.5px;
+    border-radius: 16%;
+    padding: 2px 4px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+.opicon i{
+    border: 1px solid #dfe2e1; 
+    border-radius: 16%;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: white;
+    color: #21313c;
+    opacity: 0;
+    transition: .4s;
+}
+.opicon{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+    
+}
+
+.opicon i:hover{
+    background-color:#0aad0a;
+}
+
+.box4:hover i{
+   opacity: 1;
+}
+
+.box4:hover{
+    border: 1px solid #0aad0a;
+    box-shadow:1px 1px 2px 0px  #0aad0a;
+}
+.box4:hover a{
+    color: #0aad0a;
+    f
+}
+
+.box4 a{
+    transition: .6s;
+}
